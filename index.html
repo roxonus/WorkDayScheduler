@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +29,106 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+      <div id="calendar"></div>
+      
       <!-- Timeblocks go here -->
+      
+      <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            9AM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="9amBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button9Am">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            10AM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="10amBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button10Am">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            11AM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="11amBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button11Am">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            12PM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="12pmBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button12Pm">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            1PM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="1pmBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button1Pm">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            2PM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="2pmBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button2Pm">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            3PM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="3pmBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button3Pm">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            4PM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="4pmBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button4Pm">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+    <div class="row time-block">
+        <div class="col-2 col-md-1 hour">
+            5PM
+        </div>
+        <div class="col-8 col-md-10 description" contenteditable="true" id="5pmBlock">
+        </div>
+        <div class="col-2 col-md-1 saveBtn Button5Pm">
+            <i class="far fa-save"></i>
+        </div>
+    </div>
+
+</div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>
