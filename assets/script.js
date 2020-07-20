@@ -112,3 +112,92 @@ else if ((now >= today5Pm) && (now < today6Pm)) {
 else if (now >= today6Pm) {
     $("#5pmBlock").addClass("past")
 };
+
+// 9AM EVENT
+var eventRetrieved9Am = localStorage.getItem("9AmEventAdded");
+$("#9amBlock").text(eventRetrieved9Am);
+
+$(".Button9Am").on("click", function (event) {
+
+    var eventAdded9Am = $("#9amBlock").text();
+    localStorage.setItem("9AmEventAdded", (eventAdded9Am));
+});
+
+// 10AM EVENT
+var eventRetrieved10Am = localStorage.getItem("10AmEventAdded");
+$("#10amBlock").text(eventRetrieved10Am);
+
+$(".Button10Am").on("click", function (event) {
+
+    var eventAdded10Am = $("#10amBlock").text();
+    localStorage.setItem("10AmEventAdded", (eventAdded10Am));
+});
+
+// 11AM EVENT
+var eventRetrieved11Am = localStorage.getItem("11AmEventAdded");
+$("#11amBlock").text(eventRetrieved11Am);
+
+$(".Button11Am").on("click", function (event) {
+
+    var eventAdded11Am = $("#11amBlock").text();
+    localStorage.setItem("11AmEventAdded", (eventAdded11Am));
+});
+
+// 12PM EVENT
+var eventRetrieved12Pm = localStorage.getItem("12PmEventAdded");
+$("#12pmBlock").text(eventRetrieved12Pm);
+
+$(".Button12Pm").on("click", function (event) {
+
+    var eventAdded12Pm = $("#12pmBlock").text();
+    localStorage.setItem("12PmEventAdded", (eventAdded12Pm));
+});
+
+// 1PM EVENT
+var eventRetrieved1Pm = localStorage.getItem("1PmEventAdded");
+$("#1pmBlock").text(eventRetrieved1Pm);
+
+$(".Button1Pm").on("click", function (event) {
+
+    var eventAdded1Pm = $("#1pmBlock").text();
+    localStorage.setItem("1PmEventAdded", (eventAdded1Pm));
+});
+
+// 2PM EVENT
+var eventRetrieved2Pm = localStorage.getItem("2PmEventAdded");
+$("#2pmBlock").text(eventRetrieved2Pm);
+
+$(".Button2Pm").on("click", function (event) {
+
+    var eventAdded2Pm = $("#2pmBlock").text();
+    localStorage.setItem("2PmEventAdded", (eventAdded2Pm));
+});
+
+// 3PM EVENT
+var eventRetrieved3Pm = localStorage.getItem("3PmEventAdded");
+$("#3pmBlock").text(eventRetrieved3Pm);
+
+$(".Button3Pm").on("click", function (event) {
+
+    var eventAdded3Pm = $("#3pmBlock").text();
+    localStorage.setItem("3PmEventAdded", (eventAdded3Pm));
+});
+// 4PM EVENT
+var eventRetrieved4Pm = localStorage.getItem("4PmEventAdded");
+$("#4pmBlock").text(eventRetrieved4Pm);
+
+$(".Button4Pm").on("click", function (event) {
+
+    var eventAdded4Pm = $("#4pmBlock").text();
+    localStorage.setItem("4PmEventAdded", (eventAdded4Pm));
+});
+
+// 5PM EVENT
+var eventRetrieved5Pm = localStorage.getItem("5PmEventAdded");
+$("#5pmBlock").text(eventRetrieved5Pm);
+
+$(".Button5Pm").on("click", function (event) {
+
+    var eventAdded5Pm = $("#5pmBlock").text();
+    localStorage.setItem("5PmEventAdded", (eventAdded5Pm));
+});
